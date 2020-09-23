@@ -1,0 +1,76 @@
+body {
+    background-color: rgb(238, 238, 238);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container-form {
+    max-width: 700px;
+    margin: 0 auto;
+    border: 1px solid #FF5F52;
+    padding: 60px 0px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.container-form h1 {
+    animation: mymove 3.5s infinite;
+    color: red;
+}
+
+#cep, #municipio, #uf, #bairro, #ddduf, #logradouro {
+    height: 30px;
+    border-radius: 5px;
+    outline: none;
+    border: 2px solid rgb(131, 130, 130);
+    width: 500px;
+    margin-top: 15px;
+}
+
+#cep:focus {
+    border: 2px solid#52FF9F;
+}
+#municipio:focus{
+    border: 2px solid#52FF9F;
+}
+    
+#uf:focus{
+    border: 2px solid#52FF9F;
+}
+#logradouro:focus{
+    border: 2px solid#52FF9F;
+}
+#bairro:focus{
+    border: 2px solid#52FF9F;
+}
+#ddduf:focus{
+    border: 2px solid#52FF9F;
+}
+button {
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 30px;
+    background-color:#FF776B;
+    color: white;
+    border: 1px solid #FF776B;
+    outline: none;
+}
+button:hover {
+    background-image: linear-gradient(to right, #FF776B , #52FF9F);
+    border: none;
+    cursor: pointer;
+}
+
+
+@keyframes mymove {
+    0%   {opacity: 1}
+    25%  {opacity: 0.8;}
+    50%  {opacity: 0;}
+    75%  {opacity: 0.8;}
+    100% {opacity: 1;}
+  }
+
+
