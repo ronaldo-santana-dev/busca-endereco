@@ -1,6 +1,6 @@
 # FORM CEP
 
-Projeto desenvolvido com o intuito de auto preencher um formulario digitando apenas o CEP.
+Projeto desenvolvido em ReactJS com o intuito de auto preencher um formulario digitando apenas o CEP.
 Após digitar o CEP ele automaticamente fará uma requisição GET para a API do Viacep e ele
 buscará o resto das informações.
 
