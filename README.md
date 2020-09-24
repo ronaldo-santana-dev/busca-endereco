@@ -6,7 +6,7 @@ buscará o resto das informações.
 
 ## Dependências para rodar o projeto
 
-Para rodar o projeto você precisa de:
+Para rodar o projeto você precisa do seguinte programa instalado:
 
 - NPM
 
